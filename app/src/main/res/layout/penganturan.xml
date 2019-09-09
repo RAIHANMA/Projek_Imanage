@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/index"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:text="Pengaturan">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/gmail"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="seting akun"
+        android:layout_below="@id/gmail"/>
+
+   <Button
+        android:id="@+id/ubahpassword"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="ubah password"
+        android:layout_below="@id/ubah password" />
+
+  <Button
+        android:id="@+id/tampilan"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="tampilan"
+        android:layout_below="@id/tampilan"/>
+
+   <Button
+        android:id="@+id/tampilan"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="tentang I-MANAGE"
+        android:layout_below="@id/tampilan"
+       tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/panduan"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Panduan pengguna"
+        android:layout_below="@id/tampilan" />
+
+
+
+</LinearLayout>
